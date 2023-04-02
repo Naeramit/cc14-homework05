@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: salmon;
+}
+
+body > nav{
+    display: flex;
+    width: 90vw;
+    max-width: 800px;
+    justify-content: flex-end;
+    margin: auto;
+    margin-bottom: 70px;
+    gap: 1rem;
+}
+.row_box{
+    max-width: 700px;
+    min-height: 200px;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+.set_column{
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1em;
+}
+.set_column h2,h3,p{
+    padding-bottom: 10px;
+}
+.describe_box{
+    width: 80%;
+    margin-left: 20px;
+}
+.describe_box > input{
+    width: 50%;
+    max-width: 150px;
+    padding: 0.25rem;
+    border: none;
+    background-color: rgb(205, 63, 63);
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 70%;
+}
+.describe_box > *{
+    margin-bottom: 10px;
+
+}
+.photo_box{
+    width: 20%;
+    min-width: 150px;
+    margin-right: 80px;
+}
+.photo_box > img {
+    width: 100%;
+}
+.bar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    padding: 10px 20px  5px;
+    margin: auto;
+}
+.post{
+    background-color: rgb(247, 245, 245);
+}
+.content_box{
+    background-color: rgb(255, 255, 255);
+    max-width: 320px;
+}
+.content_box * {
+    padding: 10px;
+}
+.set_row{
+    justify-content: flex-start; 
+    gap: 1em;
+    min-height: fit-content;
+}
+.inner_img img{
+    min-width: 200px;
+    width: 200px;
+    height: 150px;
+    background-color: brown;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.history_work{
+    margin-bottom: 10px;
+}
+.history_work > input{
+    border: none;
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: rgb(123, 66, 66);
+    color: aliceblue;
+    margin-right: 10px;
+}
+.history_work > span{
+    color: rgb(179, 183, 183);
+}
+
+.inner_text h2{
+    margin-bottom: 10px;
+}
+
+.column_box{
+    max-width: 700px;
+    margin: auto;
+}
+
+.column_box hr{
+    border: 1px solid rgb(234, 231, 231);
+}
+
+.tail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+.icon img{
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.content_box__full_width{
+    width: 100%;
+}
+
